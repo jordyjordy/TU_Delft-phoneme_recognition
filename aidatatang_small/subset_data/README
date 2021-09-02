@@ -1,0 +1,18 @@
+To BSc project students:
+   This folder contains two files speaker_list.txt and lexicon.txtg. The first file indicates the training data you are going to use in your experiments. For instance, the first line contains "G0013", it means data in
+   /tudelft.net/staff-bulk/ewi/insy/SpeechLab/corpora/mandarin/aidatatang_200zh/corpus/train/G0013/* are to be used. Otherwise, like "G7072" not being included in speaker_list.txt, /tudelft.net/staff-bulk/ewi/insy/SpeechLab/corpora/mandarin/aidatatang_200zh/corpus/train/G7072/* will not be used.
+
+The second file is a pronunciation dictionary for Mandarin Chinese. It indicates a phoneme sequence for a Chinese character, or a Chinese word (consisting of several characters). For your experiments, you will only need to look at rows that contain a Chinese character. 
+  
+
+  For test data please be noted that all files in /tudelft.net/staff-bulk/ewi/insy/SpeechLab/corpora/mandarin/aidatatang_200zh/corpus/test/*/* are to be used in your experiments.
+
+  All training and data speech and transcripts are found in /tudelft.net/staff-bulk/ewi/insy/SpeechLab/corpora/mandarin/aidatatang_200zh/corpus/{train,test}/
+  Example:
+  Speech: G0013/T0055G0013S0001.wav
+  Transcript: G0013/T0055G0013S0001.txt "今天什么日子" (Mandarin orthographic transcriptions), I have provided you a Mandarin pronunciation dictionary that maps each Chinese character to phonemes: lexicon.txt in this folder
+
+What you will need to prepare:
+wav.scp, text, utt2spk 
+
+  Any questions feel free to contact Siyuan Feng (s.feng@tudelft.nl)

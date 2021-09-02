@@ -1,0 +1,4 @@
+bash networks/run_tdnn_blstm_7_3.sh --stage 12 --stop-stage 16 --decode-nj 8 --lr-initial 0.05 --lr-final 0.005 --affix ly1 --linear-layer-dim 256 --layer-dim 2048 --input-dim 40
+bash networks/run_tdnn_blstm_7_3.sh --stage 12 --stop-stage 16 --decode-nj 8 --lr-initial 0.05 --lr-final 0.005 --affix ly3 --linear-layer-dim 256 --layer-dim 512 --input-dim 40
+bash networks/run_tdnn_blstm_7_3.sh --stage 12 --stop-stage 16 --decode-nj 8 --lr-initial 0.05 --lr-final 0.005 --affix ly5 --linear-layer-dim 64 --layer-dim 512 --input-dim 40
+bash networks/run_tdnn_blstm_7_3.sh --stage 12 --stop-stage 16 --decode-nj 8 --lr-initial 0.05 --lr-final 0.005 --affix ly6 --linear-layer-dim 64 --layer-dim 256 --input-dim 40
